@@ -22,7 +22,7 @@ print("3.Multiply")
 print("4.Divide")
 
 while True:
-    choice = input("Enter choice(1/2/3/4): ")
+    choice = input("Enter choice(1/2/3/4): ") # Take input from the user
 
     if choice in ('1', '2', '3', '4'):
         try:
@@ -44,10 +44,10 @@ while True:
     elif choice == '4':
         print(num1, "/", num2, "=", divide(num1, num2))
 
-
+# Check if user wants another calculation
     next_calculation = input("Want to do next calculation? (y/n): ")
     if next_calculation == "n":
-          break
+          break   # Break the while loop if answer is no
     else:
         print("Invalid Input")
 
