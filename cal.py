@@ -44,3 +44,10 @@ while True:
     elif choice == '4':
         print(num1, "/", num2, "=", divide(num1, num2))
 
+
+    next_calculation = input("Want to do next calculation? (y/n): ")
+    if next_calculation == "n":
+          break
+    else:
+        print("Invalid Input")
+
